@@ -15,6 +15,13 @@ buildscript {
     }
 }
 
+ext.build_tools_version = "26.1.0"
+ext.support_version = "26.1.0"
+ext.arch_version = "1.0.0-alpha9-1"
+ext.retrofit_version = "2.2.0"
+ext.dagger_version = "2.11"
+ext.butterknife_version = "8.8.1"
+
 allprojects {
     repositories {
         google()
